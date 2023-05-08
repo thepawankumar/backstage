@@ -186,11 +186,14 @@ function getShortRef(options: {
 
   let result = name;
 
-  if (namespace && defaultNamespace && namespace !== defaultNamespace) {
+  if (
+    (defaultNamespace && namespace !== defaultNamespace) ||
+    namespace !== DEFAULT_NAMESPACE
+  ) {
     result = `${namespace}/${result}`;
   }
 
-  if (kind && defaultKind && kind !== defaultKind) {
+  if (defaultKind && kind !== defaultKind) {
     result = `${kind}:${result}`;
   }
 
