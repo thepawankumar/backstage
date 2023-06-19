@@ -1,5 +1,17 @@
 # @backstage/plugin-org
 
+## 0.6.9
+
+### Patch Changes
+
+- 0151ed6ec37a: EntityOwnershipCard: Fix color to pick up from page theme for component type
+- Updated dependencies
+  - @backstage/core-components@0.13.2
+  - @backstage/theme@0.4.0
+  - @backstage/plugin-catalog-react@1.7.0
+  - @backstage/catalog-model@1.4.0
+  - @backstage/core-plugin-api@1.5.2
+
 ## 0.6.9-next.3
 
 ### Patch Changes

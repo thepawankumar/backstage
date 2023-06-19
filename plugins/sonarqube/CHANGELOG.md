@@ -1,5 +1,21 @@
 # @backstage/plugin-sonarqube
 
+## 0.7.0
+
+### Minor Changes
+
+- ce9bc94c15e1: fix sonarqube case in config schema definition
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-components@0.13.2
+  - @backstage/theme@0.4.0
+  - @backstage/plugin-catalog-react@1.7.0
+  - @backstage/catalog-model@1.4.0
+  - @backstage/core-plugin-api@1.5.2
+  - @backstage/plugin-sonarqube-react@0.1.6
+
 ## 0.6.8-next.3
 
 ### Patch Changes
